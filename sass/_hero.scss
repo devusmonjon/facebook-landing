@@ -1,0 +1,130 @@
+.hero {
+    height: 600px;
+    background: rgb(240, 242, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    &__wrapper {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+    &__logo {
+        width: 60%;
+    }
+    &__box {
+        padding: 20px;
+        width: 45%;
+        height: 100%;
+        border: 1px solid gainsboro;
+        box-shadow: 0 0 20px 0 rgb(201, 201, 201);
+        border-radius: 10px;
+        background: white;
+    }
+    &__text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 20px;
+        hr {
+            margin-bottom: 10px;
+        }
+        input {
+            height: 50px;
+            padding-left: 10px;
+            border-radius: 5px;
+            border: 1px solid gainsboro;
+            outline: none;
+            font-weight: 400;
+            font-size: 17px;
+            &:hover {
+                box-shadow: 0 0 3px 0 rgb(82, 147, 253);
+                border: 1px solid rgb(8, 102, 255);
+            }
+        }
+    }
+}
+.title {
+    color: rgb(8, 102, 255);
+    font-size: 50px;
+    font-weight: 700;
+}
+.content {
+    font-size: 28px;
+    color: rgb(26, 25, 25);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.colorful {
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(8, 102, 255);
+    color: white;
+    border: none;
+    transition: 0.25s;
+    font-weight: 600;
+    font-size: 18px;
+    &:hover {
+        background: transparent;
+        color: rgb(8, 102, 255);
+        border: 1px solid rgb(8, 102, 255);
+        cursor: pointer;
+    }
+}
+.forgot__password {
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(8, 102, 255);
+    border: none;
+    transition: 0.25s;
+    font-weight: 600;
+    font-size: 18px;
+    &:hover {
+        color: black;
+        cursor: pointer;
+    }
+}
+.new {
+    background: rgb(26, 193, 26);
+    color: white;
+    width: 200px;
+    border: 1px solid;
+    margin: auto;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+    &:hover {
+        background: transparent;
+        color: rgb(26, 193, 26);
+    }
+}
+
+.footer {
+    background: white;
+    padding-top: 30px;
+}
+.lang {
+    padding-bottom: 10px;
+    color: rgb(113, 113, 113);
+    &:hover {
+        cursor: pointer;
+        color: rgb(8, 102, 255);
+    }
+}
+.desc {
+    padding-top: 10px;
+    color: rgb(113, 113, 113);
+    &:hover {
+        cursor: pointer;
+        color: rgb(8, 102, 255);
+    }
+}

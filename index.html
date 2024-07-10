@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <style>
+        body {
+            background: #f0f2f5;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__logo">
+                        <p class="title">facebook</p>
+                        <p class="content">Connect with your friends and the world you on Facebook. </p>
+                    </div>
+                    <div class="hero__box">
+                        <div class="hero__text">
+                            <form action="#">
+                                <input class="" type="text" placeholder="Email or phone number">
+                                <input type="text" placeholder="Password">
+                            </form>
+                            <button class="colorful">Log in</button>
+                            <button class="forgot__password">Forgot password?</button>
+                            <hr>
+                            <button class="new" id="create__account">Creat new account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="info">
+        <div class="container">
+            <img class="close" src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png" alt="" width="24"
+                height="24" id="u_2_9_rX">
+            <h2>Sign Up</h2>
+            <p>It's quick and easy</p>
+            <hr>
+            <form class="info__name">
+                <div class="name">
+                    <input type="text" placeholder="First name" id="fname">
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Last name" id="lname">
+                </div>
+                <input type="submit" hidden>
+            </form>
+            <div class="tel">
+                <input type="tel" placeholder="Mobile number or Email">
+            </div>
+            <div class="tel">
+                <input type="password" placeholder="New password">
+            </div>
+            <button class="new" onclick="alerter()">Sign up</button>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
